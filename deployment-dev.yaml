@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: almafrtk/225-lab3-2:latest   # <-------change this!
+        image: roseaw/225-lab3-2:latest   # <-------change this!
         ports:
         - containerPort: 80  # Expose NGINX on port 80      
 ---
