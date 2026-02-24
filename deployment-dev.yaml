@@ -21,14 +21,14 @@ spec:
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: nginx
+  name: almafrtk-ingress
 spec:
   rules: 
   - host: 
     http:
       paths:
-      - path: /
-        pathType: ImplementationSpecific
+      - path: /almafrtk
+        pathType: Prefix
         backend: 
           service:
             name: dev-service
