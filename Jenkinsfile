@@ -2,7 +2,7 @@ pipeline {
     agent any 
 
     environment {
-        DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'
+        DOCKER_CREDENTIALS_ID = 'almafrtk-dockerhub'
         DOCKER_IMAGE = 'almafrtk/225-lab3-2'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/TibaAlMafrachi/225-lab3-2.git'                   // <------change this
