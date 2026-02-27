@@ -23,12 +23,12 @@ kind: Ingress
 metadata:
   name: almafrtk-ingress
 spec:
-  rules: 
-    - http:
-        paths:
-        - path: /almafrtk/
+  rules:
+  - http:
+      paths:
+      - path: /almafrtk/
         pathType: Prefix
-        backend: 
+        backend:
           service:
             name: dev-service
             port:
